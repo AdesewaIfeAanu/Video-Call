@@ -49,12 +49,14 @@ body {
     font-size: 14px;
 }
 
+/*responsiveness */
 @media screen and (max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
     }
     
 }
+
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .container {
         grid-template-columns: repeat (2, 1fr);
